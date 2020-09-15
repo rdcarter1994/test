@@ -1,0 +1,6 @@
+gradient experiments run singlenode \
+--name Test \
+--projectId prpekf6kc \
+--container paperspace/dl-containers:pytorch-py36-cu100-jupyter \
+--machineType GPU+ \
+--command 'python3 train.py --dataroot ./datasets/facesegment --name facesegment_pix2pix --model pix2pix --direction AtoB --display_id 0 --n_epochs 20 --n_epochs_decay 20'

@@ -1,0 +1,1 @@
+python3 train.py --dataroot ./datasets/facesegment --name facesegment_pix2pix --model pix2pix --direction AtoB --display_id 0 --gpu_ids -1 --n_epochs 20 --n_epochs_decay 20
